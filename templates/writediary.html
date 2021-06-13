@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>글쓰기창입니다.</h1>
+        <form action = "/savediary" method = "POST" enctype = "multipart/form-data">
+            <p>제목<input type = "text" name="Title" /></p>
+            <p>내용<textarea name="Contents" rows="22" cols="55"></textarea></p>
+            
+
+
+            
+            <input type="file" name="upload_file" accept="image/*" required=true value="업로드">
+
+            
+            <p><input type = "submit" value = "save" /></p>
+        </form>
+
+
+    </body>
+</html>
+

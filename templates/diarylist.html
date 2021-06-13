@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>글목록입니다. 보고싶은 제목을 클릭해주세요.</h1>
+        {%for n in lst%}
+        
+            <A href="./viewdiary/{{n[1]}}">{{n[1]}}<br/></A>
+        {%endfor%}
+        <button type = "button" class ="navyBtn" onclick="location.href='/gomain'" >메인으로돌아가기</button>
+    </body>
+</html>

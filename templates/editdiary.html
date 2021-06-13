@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h1>수정창입니다.</h1>
+        <form action = "/editsave" method = "POST" enctype = "multipart/form-data">
+            {% if true %}
+            <p>제목<input type = "text" name="Title" value={{lst[1]}}  /></p>
+            <p>내용<textarea name="Contents"  rows="22" cols="55">{{lst[2]}}</textarea></p>
+            
+            {% endif%}
+            
+        <p><input type = "submit" value = "save" /></p>
+        </form>
+
+
+    </body>
+</html>
+
